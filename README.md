@@ -13,6 +13,7 @@ The following programs are ordered by last modification date of the final execut
 
 I have not spent any time making any of this code easy to compile as I don't expect anyone to want to actually compile any of it. It should all actually compile, though. I originally used Code::blocks or Dev-C++ with MinGW as my IDE.
 
+(I used ![ScreenToGif](https://screentogif.codeplex.com/) to record all of these gifs. It was exceptionally easy to use and well made. Don't let the quality of these gifs deter you from using it, I intentionally turned the quality way down.)
 
 #DeskDraw
 ####A program to draw on the desktop
@@ -148,7 +149,7 @@ This is a quick little game based on a flash game that I played once. The object
 
 ![Juggle](demos/juggle.gif)
 
-The animation here is surprisingly very smooth. It turned out to be quite a fun game and I was happy with myself when I completed it. The gravity also looks quite good.
+The animation here is surprisingly very smooth (the flickering is due to the screengrab). It turned out to be quite a fun game and I was happy with myself when I completed it. The gravity also looks quite good.
 
 
 #Fractals
@@ -182,10 +183,25 @@ The parameters were easily changed in code here to generate a lot of different l
 
 
 #Slime Volleyball
-#### A clone of the popular slime volleyball flash game
+#### A clone of the popular slime volleyball online game
 #### April, 2010
 
+The slime volleyball online game is great fun and I used to play it all the time. I thought it would be an interesting game to try and clone. I got something that at least resembled the game but I never managed to get the physics right.
 
+![Slime volleyball](demos/slimevolley.gif)
+
+The controls are the arrow keys for the second player and numpad 1, 3 and 5 for the first player (worst decision I have ever made). The above gif doesn't really show the extent of the broken physics in the clone. There is some flicker in the program but it's not too bad, the gif exacerbates it quite a bit.
+
+
+#Raycasting Test
+#### A small raycasted environment
+#### April, 2010
+
+This was probably about the time when I read David Kushner's Masters of Doom. Masters of Doom is the story of the rise of id Software. After reading about DOOM and Wolfenstein3D I became pretty interested in raycasting. This was an attempt at a small raycasted environment that the player can walk through. The environment is just a room with some boxes. 
+
+![Ray casting](demos/raycast.gif)
+
+Unfortunately I don't think I got the maths to work out so there are a lot of gaps everywhere. The movement also flickers a lot which is either because GDI sucks or I suck, I'm not sure which.
 
 
 
