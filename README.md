@@ -107,5 +107,86 @@ A very simple tic tac toe game for windows. I think I wanted to make this so tha
 The mouse is really difficult to see here. That's an artifact of the screengrabbing software that I used. I am the Xs and the AI is the Os.
 
 
+#ListWindows
+#### Lists ALL of the windows on the system
+#### March, 2010
+
+I used to be pretty interested in how Windows worked. I made this program to list all of the windows on the system and manipulate them in some pretty basic ways. Listing all the windows means that even child windows are listed.
+
+![ListWindows](demos/listwindows.gif)
+
+This just provides a cool example of how to enumerate all windows on a system.
+
+
+#FlowChart
+#### A small program for building flow charts
+#### March, 2010
+
+I started taking WACE Computer Science at high school in 2010. We didn't really do any significant programming in the unit but we had to draw flowcharts for some flow control exercises. I went home and wrote a program to make drawing flowcharts easier.
+
+![Flow chart](demos/flowchart.gif)
+
+Unfortunately the program does not actually support the lines between steps in the flowchart, these have to be drawn in afterwards. I think I only ended up using this program once or twice before we moved on and I never used flowcharts ever again.
+
+
+#16 Puzzle
+#### The popular 16 slider puzzle
+#### March, 2010
+
+We had Windows 7 installed on the school computers at about this time and I really enjoyed the 16 puzzle widget that came with it (I realise that the puzzle itself is actually quite old). I decided to build the widget for Windows XP.
+
+![16 puzzle](demos/16puzzle.gif)
+
+For some reason I never actually got around to mixing the puzzle up. I think this is because it's not quite as trivial as it seems because if you just set random blocks to random numbers then you can create an unwinnable state. The easiest way to do it is just to create the board and then mix it up by randomly moving tiles around.
+
+
+#Juggle
+#### A juggling game
+#### March, 2010
+
+This is a quick little game based on a flash game that I played once. The objective is to move your paddle using the mouse to keep the balls bouncing. After enough balls are juggled without missing any a new ball is added. This goes on til about ten balls (I think).
+
+![Juggle](demos/juggle.gif)
+
+The animation here is surprisingly very smooth. It turned out to be quite a fun game and I was happy with myself when I completed it. The gravity also looks quite good.
+
+
+#Fractals
+#### April, 2010
+
+I became kind of interested in simple fractals around this time. I made a few programs to generate them.
+
+#### Sierpinski Carpet
+
+This is like the sierpinski triangle but with squares.
+
+![Sierpinski carpet](demos/sierpinskicarpet.gif)
+
+
+#### Sierpinski Triangle
+
+The more well-known sierpinski triangle.
+
+![Sierpinski triangle](demos/sierpinskitriangle.gif)
+
+
+#### Tree fractals
+
+I don't remember if I came up with this or if I read about it somewhere. Trees are self similar in that the branches very much resemble the structure of the whole tree.
+
+Funnily enough I used this fact to generate three dimensional trees in my povray assignment (see my Newton's Cradle repo) and in an opengl assignment that I had to complete.
+
+![Tree fractal](demos/treefractal.gif)
+
+The parameters were easily changed in code here to generate a lot of different looking trees. The one generated here is just the parameters that I set several years ago.
+
+
+#Slime Volleyball
+#### A clone of the popular slime volleyball flash game
+#### April, 2010
+
+
+
+
 
 #There are still more to come.
