@@ -204,5 +204,23 @@ This was probably about the time when I read David Kushner's Masters of Doom. Ma
 Unfortunately I don't think I got the maths to work out so there are a lot of gaps everywhere. The movement also flickers a lot which is either because GDI sucks or I suck, I'm not sure which.
 
 
+#Colour Picker
+#### May, 2010
 
-#There are still more to come.
+We were given an assignment in our WACE computer science class to design an application to help pick colour schemes. I decided to actually build said application to stave off boredom.
+
+#### My Application
+
+My design made absolutely no sense at all. My goal was to have some colour 'patches' that could be moved around and fitted next to each other. I suppose the idea was based off of the patches that you get shown when choosing paints at a store. I never got around to finishing it but I thought the movement of the hexagons looked cool.
+
+![My colour chooser](demos/colourchooser.gif)
+
+
+#### Another Application
+
+I offered to build the application that a friend of mine in the same class had designed. His design was much better than my own and it came out a lot nicer. The idea is just to select from a palette and the colours will show up next to each other.
+
+![Friend's colour chooser](demos/bencolourchooser.gif)
+
+I think that the colours in the palette are just randomly generated. I think it came out quite nicely.
+
