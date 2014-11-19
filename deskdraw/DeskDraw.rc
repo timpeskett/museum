@@ -1,0 +1,7 @@
+#include "DeskDraw.h"
+
+PENS1 BITMAP Buttons.bmp
+PENSPUSHED2 BITMAP ButtonsPushed.bmp
+BLUECUR CURSOR BlueCur.cur
+REDCUR CURSOR RedCur.cur
+APPICON ICON Icon.ico
