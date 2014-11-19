@@ -13,7 +13,7 @@ The following programs are ordered by last modification date of the final execut
 
 I have not spent any time making any of this code easy to compile as I don't expect anyone to want to actually compile any of it. It should all actually compile, though. I originally used Code::blocks or Dev-C++ with MinGW as my IDE.
 
-(I used ![ScreenToGif](https://screentogif.codeplex.com/) to record all of these gifs. It was exceptionally easy to use and well made. Don't let the quality of these gifs deter you from using it, I intentionally turned the quality way down.)
+(I used [ScreenToGif](https://screentogif.codeplex.com/) to record all of these gifs. It was exceptionally easy to use and well made. Don't let the quality of these gifs deter you from using it, I intentionally turned the quality way down.)
 
 #DeskDraw
 ####A program to draw on the desktop
