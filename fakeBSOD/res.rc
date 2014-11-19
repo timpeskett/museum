@@ -1,0 +1,3 @@
+#include "main.h"
+
+BLUEICON ICON "icon.ico"
