@@ -50,9 +50,10 @@ This program just inverts/changes some channels of a bitmap image. From the look
 The program is run from the command line and the desired filter is supplied there. Only one filter can be supplied per execution of the program but as it reads and writes complete bitmaps there is nothing stopping using multiple filters by running the program several times.
 
 According to the inbuilt documentation the filters available are:
-        * i - Inverse Filter -- All pixels values take 255 - value.
+
+	* i - Inverse Filter -- All pixels values take 255 - value.
 	* l - Left Shift -- All pixel values left shifted by 1.
-        * r - Right Shift -- All pixel values right shifted by 1.
+	* r - Right Shift -- All pixel values right shifted by 1.
 	* h - Halfway Filter -- Don't even ask 
 	* c - cycles RGB values for pixels -- Red value becomes blue, blue value becomes green, green becomes red.
 	* g - Greyscale -- Turns the image greyscale
@@ -79,6 +80,10 @@ This was one of my first ventures into C++ so the code is pretty horrendous and 
 
 This shows the very first level (which is an exact clone of the original Pacman level). There was a menu with options and credits but I must have removed that for this version for some reason. Unfortunately the PC emulation crashes on button presses but the version that runs on the actual calculator worked fine and was bug tested and finished. This was probably one of the first non-trivial programs I ever wrote that I would really consider complete. I remember this taking me a long time. I think I worked on and off for a few months on it.
 
+The AI is somewhat notable I suppose. From memory it uses a recursive algorithm to search the entire maze for the most efficient path to player. Unfortunately that would be too perfect, though, so it will only update this path once it travels half the tiles toward the player. This means that it is always travelling to where the player was several tiles ago until it is right next to the player where it will directly follow the player.
+
+The power pills are also sort of interesting. The ClassPad is only black and white (no greyscale) and there needed to be a way to indicate that the ghosts could be eaten. To implement a 'pseudo grayscale' the ghosts are only rendered on every second or third frame when a powerpill has been eaten. This idea is essentially the same as PCM used to make lights look dimmer.
+
 
 #DeskPOP
 #### The Prince of Persia running along the bottom of the desktop.
@@ -99,6 +104,7 @@ A very simple tic tac toe game for windows. I think I wanted to make this so tha
 
 ![Tic Tac Toe](demos/tictactoe.gif)
 
+The mouse is really difficult to see here. That's an artifact of the screengrabbing software that I used. I am the Xs and the AI is the Os.
 
 
 
