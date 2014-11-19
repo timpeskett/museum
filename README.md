@@ -50,13 +50,13 @@ This program just inverts/changes some channels of a bitmap image. From the look
 The program is run from the command line and the desired filter is supplied there. Only one filter can be supplied per execution of the program but as it reads and writes complete bitmaps there is nothing stopping using multiple filters by running the program several times.
 
 According to the inbuilt documentation the filters available are:
-        i - Inverse Filter -- All pixels values take 255 - value.
-	l - Left Shift -- All pixel values left shifted by 1.
-        r - Right Shift -- All pixel values right shifted by 1.
-	h - Halfway Filter -- Don't even ask 
-	c - cycles RGB values for pixels -- Red value becomes blue, blue value becomes green, green becomes red.
-	g - Greyscale -- Turns the image greyscale
-	R/G/B - All Red/Green/Blue -- Eliminates two of the channels
+        * i - Inverse Filter -- All pixels values take 255 - value.
+	* l - Left Shift -- All pixel values left shifted by 1.
+        * r - Right Shift -- All pixel values right shifted by 1.
+	* h - Halfway Filter -- Don't even ask 
+	* c - cycles RGB values for pixels -- Red value becomes blue, blue value becomes green, green becomes red.
+	* g - Greyscale -- Turns the image greyscale
+	* R/G/B - All Red/Green/Blue -- Eliminates two of the channels
 
 These are some examples of applying filters to an image:
 
@@ -67,3 +67,39 @@ The first here is the original. The second looks inverted. The third looks like 
 The most interesting thing here is just the manual reading/writing of bitmap files. Very little of this code is Windows dependent.
 
 
+#Padman
+#### A Pacman clone for the ClassPad calculator
+#### January, 2010
+
+The ClassPad calculator was a pretty nifty CAS graphics calculator with a large screen and a touch screen. I don't think it was nearly as popular as the TI calculators so there weren't very many games available for it (maybe 10-20 that I could find at the time). Pacman was a pretty obvious choice to build because it offered more complexity than I was used to and the dimensions of the screen are perfect for it. The game ended up having about ten levels, one of which was designed by a friend.
+
+This was one of my first ventures into C++ so the code is pretty horrendous and impossible to follow. The windowing system of the ClassPad (PEG) was also knew to me and so was another thing to learn.
+
+![Padman](demos/padman.gif)
+
+This shows the very first level (which is an exact clone of the original Pacman level). There was a menu with options and credits but I must have removed that for this version for some reason. Unfortunately the PC emulation crashes on button presses but the version that runs on the actual calculator worked fine and was bug tested and finished. This was probably one of the first non-trivial programs I ever wrote that I would really consider complete. I remember this taking me a long time. I think I worked on and off for a few months on it.
+
+
+#DeskPOP
+#### The Prince of Persia running along the bottom of the desktop.
+#### February, 2010
+
+This is a program that renders the Prince of Persia sprite from the original game running along the bottom of the desktop. Once he reaches the edge of the screen he will turn around and run the other way.
+
+![DeskPOP](demos/deskPOP.gif)
+
+There was always a lot of flicker in the program. It did work fairly well in Windows XP though. Windows 7 completely broke it and he is hardly visible. Funnily enough I was only able to see him running when he was being screengrabbed. I always thought this was a pretty cool idea and it's disappointing that I never got a realiable version working.
+
+
+#TicTacToe
+#### A simple tic tac toe game
+#### March, 2010
+
+A very simple tic tac toe game for windows. I think I wanted to make this so that I could build an AI for it. From memory I never actually got an unbeatable AI working (I wanted to develop the algorithm myself so no minimax used) but I wasn't able to beat it when I was taking the screengrab. Maybe I just suck at Tic Tac Toe.
+
+![Tic Tac Toe](demos/tictactoe.gif)
+
+
+
+
+#There are still more to come.
