@@ -75,7 +75,7 @@ The most interesting thing here is just the manual reading/writing of bitmap fil
 
 The ClassPad calculator was a pretty nifty CAS graphics calculator with a large screen and a touch screen. I don't think it was nearly as popular as the TI calculators so there weren't very many games available for it (maybe 10-20 that I could find at the time). Pacman was a pretty obvious choice to build because it offered more complexity than I was used to and the dimensions of the screen are perfect for it. The game ended up having about ten levels, one of which was designed by a friend.
 
-This was one of my first ventures into C++ so the code is pretty horrendous and impossible to follow. The windowing system of the ClassPad (PEG) was also knew to me and so was another thing to learn.
+This was one of my first ventures into C++ so the code is pretty horrendous and impossible to follow. The windowing system of the ClassPad (PEG) was also new to me and so was another thing to learn.
 
 ![Padman](demos/padman.gif)
 
@@ -94,7 +94,7 @@ This is a program that renders the Prince of Persia sprite from the original gam
 
 ![DeskPOP](demos/deskPOP.gif)
 
-There was always a lot of flicker in the program. It did work fairly well in Windows XP though. Windows 7 completely broke it and he is hardly visible. Funnily enough I was only able to see him running when he was being screengrabbed. I always thought this was a pretty cool idea and it's disappointing that I never got a realiable version working.
+There was always a lot of flicker in the program. It did work fairly well in Windows XP though. Windows 7 completely broke it and he is hardly visible. Funnily enough I was only able to see him running when he was being screengrabbed. I always thought this was a pretty cool idea and it's disappointing that I never got a reliable version working.
 
 
 #TicTacToe
